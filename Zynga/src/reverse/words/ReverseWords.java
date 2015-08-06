@@ -24,8 +24,8 @@ public class ReverseWords {
 		int mid = (start + end) / 2;
 		for (int i = start; i < mid; i++) {
 			char temp = input[i];
-			input[i] = input[end - 1 - (i-init)];
-			input[end - 1 - (i-init)] = temp;
+			input[i] = input[end - 1 - (i - init)];
+			input[end - 1 - (i - init)] = temp;
 		}
 		return input;
 	}
