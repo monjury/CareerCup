@@ -3,8 +3,6 @@ package reverse.words;
 /*Reverse words : "I love to play" becomes "play to love I" in place.*/
 
 public class ReverseWords {
-	// single space
-	// no period
 
 	public char[] reverse(char[] input) {
 		reverseWord(input, 0, input.length);
