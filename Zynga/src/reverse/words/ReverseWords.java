@@ -15,6 +15,7 @@ public class ReverseWords {
 			}
 			end++;
 		}
+		reverseWord(input, start, end);
 		return input;
 	}
 
@@ -31,7 +32,7 @@ public class ReverseWords {
 
 	public static void main(String[] args) {
 		ReverseWords rw = new ReverseWords();
-		char[] output = rw.reverse("I love to play".toCharArray());
+		char[] output = rw.reverse("all love to play".toCharArray());
 		String print = String.valueOf(output);
 		System.out.println(print);
 	}
